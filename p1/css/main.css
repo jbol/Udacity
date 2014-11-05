@@ -1,0 +1,42 @@
+// enter your custom css here
+
+html {
+  font-family: 'Lucida Grande', sans-serif;
+  
+}
+
+body {
+    
+}
+
+/* Header */
+.main-title{
+  text-align: center;
+  color:#666666;
+  font-size: 48px;
+  font-weight: 300;
+  padding: 23px;
+}
+
+/* Blog Main */
+.blog-main{
+  margin-top: -19px;
+  line-height: 35px;
+}
+
+/* Subtitles */
+.subtitle{
+  color:#F07C17;
+  font-size:24px;  
+  font-weight: 600;
+  letter-spacing: .8px;
+  margin-bottom: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+  text-align: left;
+  padding: 30px;
+  margin: 10px 0px 10px 0px;
+  line-height: 32px;
+}
