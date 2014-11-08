@@ -1,5 +1,8 @@
 *** Notes on Git and Github ***
 
+<---------------------------- LESSON 1 ----------------------------->
+                      Navigating a Commit History
+
 Compare files:
 	- Windows: FC old-file.html new-file.html
 	- Mac + Linux: diff -u old-file.html new-file.html
@@ -46,3 +49,6 @@ one elses too). You can be more of a risk taker!!!
 	I really need to get a private git account, I use git a lot with website clients
 to show them the live version of their site, it's also very useful for checking 
 loading times on websites.
+
+
+
