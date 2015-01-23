@@ -1,18 +1,37 @@
 <---------------------------- LESSON 2 ----------------------------->
                  Creating and Modifying a Repository
 
--> What happens when you initialize a repository? Why do you need to do it?
-	When you initialize a repository git creates a hidden folder in the directory
-to track your files. It does NOT commit until you tell it to, but git does not auto-
-matically do a first commit when you initialize.
-	Why do you need to do it? Well I suppose so that git can track every change
-that takes place in that directory...obviously if it tracked all the changes in your
-entire system that wouldnt be of much use.
+-> What happens when you initialize a repository? Why do you 
+need to do it?
+	When you initialize a repositorygit creates a hidden folder 
+in the directory to track your files. It does NOT commit until you 
+tell it to, but git does not automatically do a first commit when you 
+initialize. 
+Why do you need to do it? Well I suppose so that git can track every 
+change that takes place in that directory...obviously if it tracked 
+all the changes in your entire system that wouldnt be of much use.
 
--> How is the staging area different from the working directory and the repository? 
-What value do you think it offers?
-	The staging area is where git prepares the commit for the repository. This provides
-a useful extra step for control over what you want to commit, you can chose to only add
-certain files, double check to see which files have already been added to commit and which
-ones havent.
+-> How is the staging area different from the working directory and 
+the repository? What value do you think it offers?
+	The staging area is where git prepares the commit for the repository. 
+This provides a useful extra step for control over what you want to commit, 
+you can chose to only add certain files, double check to see which files 
+have already been added to commit and whichones havent.
+
+-> How can you use the staging area to make sure you have one commit 
+per logical change?
+	Using git diff, git diff --staged, and git diff commit1 commit2, you 
+can view the differences between your files in the working directory, 
+the ones in the staging area, as well as the commits that have already been
+made. 
+Git diff can be used to compare files in the working directory from those in 
+the staging area.
+Git diff --staged can compare files in the staging area to those already 
+commited.
+Git diff commit1 commit2 logically compares just the two commited versions 
+of the files.
+Using these in combination can allow you to verify all the changes you've made
+that you want commited are in the staging area. You can also make sure no 
+changes are made that you dont want with previous commits by comparing those
+files to the staging area files.
 
